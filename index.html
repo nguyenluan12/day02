@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quản lý sinh viên</title>
+</head>
+<body>
+    <h1>Quản lý sinh viên</h1>
+    <div class="form-container">
+        <form>
+            <div class="input-group">
+                <label for="student-name"><strong>Sinh viên</strong></label>
+                <input class="input-box" id="student-name" type="text" placeholder="Nhập tên sinh viên">
+            </div>
+    
+            <div class="input-group">
+                <label for="birth-date"><strong>Ngày Sinh</strong></label>
+                <input class="input-box" id="birth-date" type="date">
+            </div>
+    
+            <div class="input-group">
+                <label for="subject"><strong>Môn Học</strong></label>
+                <input class="input-box" id="subject" type="text" placeholder="Nhập tên môn học">
+            </div>
+    
+            <div class="input-group">
+                <label for="course"><strong>Khoá</strong></label>
+                <input class="input-box" id="course" type="text" placeholder="Nhập khoá học">
+            </div>
+            <button id="btn-add">Thêm</button>
+        </form>
+    </div>
+    
+    <div class="table-container">
+        <!-- <table>
+            <tr>
+                <th><div class="table-header">STT</div></th>
+                <th><div class="table-header">Sinh Viên</div></th>
+                <th><div class="table-header">Ngày Sinh</div></th>
+                <th><div class="table-header">Môn Học</div></th>
+                <th><div class="table-header">Khoá</div></th>
+            </tr>
+            <tr class="table-row">
+                <td><div class="table-cell">1</div></td>
+                <td><div class="table-cell">Nguyễn Văn A</div></td>
+                <td><div class="table-cell">12/12/2002</div></td>
+                <td><div class="table-cell">LT Web</div></td>
+                <td><div class="table-cell">K66</div></td>
+            </tr>
+            <tr class="table-row">
+                <td><div class="table-cell">2</div></td>
+                <td><div class="table-cell">Nguyễn Văn B</div></td>
+                <td><div class="table-cell">12/06/2002</div></td>
+                <td><div class="table-cell">LT Web</div></td>
+                <td><div class="table-cell">K66</div></td>
+            </tr>
+        </table> -->
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Sinh Viên</th>
+                    <th>Ngày Sinh</th>
+                    <th>Môn Học</th>
+                    <th>Khóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Nguyễn Văn A</td>
+                    <td>2005-10-20</td>
+                    <td>LT Web</td>
+                    <td>K66</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

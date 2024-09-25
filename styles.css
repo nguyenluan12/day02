@@ -1,0 +1,85 @@
+/* Định dạng chung cho body */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Định dạng cho tiêu đề */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho khung form */
+.form-container {
+    background-color: white;
+    padding: 20px 22px 20px 20px;
+    
+    border-radius: 5px;
+    width: 700px;
+    box-shadow: 0 4px 8px 0 rgba(171, 170, 170, 0.2), 0 6px 20px 0 rgba(171, 170, 170, 0.2);
+}
+
+/* Định dạng cho nhóm input */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Định dạng cho input */
+.input-box {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #dae0e6;
+    border-radius: 3px;
+}
+
+
+
+
+.table-container {
+    margin-top: 30px;
+    width : 740px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}   
+th {
+    background-color: #4285f4;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+label {
+    font-size: 16px;
+    
+}
+
+.input-box {
+    width: 100%;
+    padding: 8px; 
+    margin-top: 5px;
+    
+}
+#btn-add {
+    background-color: #017BFE;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
