@@ -1,10 +1,10 @@
 function AddingStudent(event) {
     event.preventDefault();
 
-    const studentName = document.getElementById('student-name').value;
-    const birthDate = document.getElementById('birth-date').value;
-    const subject = document.getElementById('subject').value;
-    const course = document.getElementById('course').value;
+    const studentName = document.getElementById('student-name').value.trim();
+    const birthDate = document.getElementById('birth-date').value.trim();
+    const subject = document.getElementById('subject').value.trim();
+    const course = document.getElementById('course').value.trim();
 
     if (!studentName || !birthDate || !subject || !course) {
         alert('Vui lòng điền đầy đủ thông tin sinh viên!');
