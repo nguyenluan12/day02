@@ -51,6 +51,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
+    background-color: white;
 }
 th, td {
     padding: 12px;
